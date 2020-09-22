@@ -15,9 +15,7 @@ namespace AreaTrianguloRet
             Console.Write("Informe a altura(h) do triângulo: ");
             decimal h = Convert.ToDecimal(Console.ReadLine());
 
-            decimal mult = b * h;
-            decimal area = mult / 2;
-
+            decimal area = b * h / 2;
             Console.WriteLine($"\n Base: {b} \n Altura: {h} \n Área: {area} ");
             Console.Write("Pressione qualquer tecla para sair");
             Console.ReadKey();

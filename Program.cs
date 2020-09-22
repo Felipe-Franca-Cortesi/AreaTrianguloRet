@@ -7,7 +7,7 @@ namespace AreaTrianguloRet
         static void Main(string[] args)
         {
             Console.Clear();
-            Console.WriteLine("-----Calcule a área de um triângulo retângulo-----");
+            Console.WriteLine("------Calcule a área de um triângulo retângulo------");
 
             Console.Write("Informe o valor base(b) do triângulo: ");
             decimal b = Convert.ToDecimal(Console.ReadLine());
